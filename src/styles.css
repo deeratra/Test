@@ -1,0 +1,41 @@
+You can add global styles to this file, and also import other style files
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.mat-drawer-inner-container {
+       overflow : hidden !important
+     }
+
+.dash-list h3 {
+    padding: 12px;
+}
+
+.mat-grid-list{
+    justify-content: flex-start !important ;
+   align-items: flex-start !important;
+}
+
+.mat-tab-label{
+    font-weight: bold;
+    
+}
+.mat-tab-label.mat-tab-label-active {
+
+    background: white;
+    color:blue
+    
+}
+
+.mat-list-base .mat-list-item .mat-list-item-content{
+    padding: 0px !important;
+}

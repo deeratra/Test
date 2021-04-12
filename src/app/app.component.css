@@ -1,0 +1,184 @@
+mat-grid-tile {
+    
+        border-radius: 15px
+  }
+
+/* #grids-border{
+    border-radius: 15px
+} */
+
+table {
+  width: 100%;
+}
+
+
+#sidenav {
+  width: 240px;
+  flex: 1 1 hidden;
+  background: -webkit-linear-gradient(right, #396afc, #2948ff); 
+}
+
+#sidenav.menu-close {
+  width: 70px;
+  
+}
+
+#sidenav.menu-open {
+  width: 190px
+}
+
+
+#pic .avatar{
+  background-image: url('http://i.pravatar.cc/300');
+  background-size: cover;
+  
+}
+
+#sidenav .mat-list-item-content {
+  //padding: 0;
+}
+
+#sidenav .menu-item {
+  width: 100%;
+  border-radius: 0;
+  text-align: left;
+  padding: 10px;
+  background: -webkit-linear-gradient(right, #396afc, #2948ff); 
+}
+
+#sidenav .menu-item:hover {
+background: #eee;
+}
+#sidenav .menu-item mat-icon {
+  margin-right: 20px;
+  margin-left: 12px;
+}
+
+
+#sidenav-content{
+  margin-left:10px
+}
+
+#toolbarMenu {
+  cursor: pointer;
+  margin-right: 20px;
+}
+#mainToolbar .toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+#mainToolbar .toolbar-icon {
+  cursor: pointer;
+  margin: 0 8px;
+}
+
+
+#sidenavContainer {
+  margin-top: 64px;
+  position : absolute;
+  
+  
+}
+
+#grid-border1{
+  background: -webkit-linear-gradient(bottom, #1d976c, #93f9b9);
+}
+
+#grid-border2{
+  background: -webkit-linear-gradient(right, #396afc, #2948ff); 
+}
+
+#grid-border3{
+  background: -webkit-linear-gradient(top, #fc4a1a, #f7b733); 
+}
+
+#menus{
+   background: -webkit-linear-gradient(right, #396afc, #2948ff); 
+}
+
+#report{
+  color: white;
+  font-size: 40px;
+  
+  text-align: center;
+  display: block
+  ;margin-left: auto;
+  margin-right: auto
+}
+#description{
+      background: white;
+    padding: 12px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bold;
+    margin-left:10px
+}
+
+#caseupload{
+  background: white;
+    padding: 12px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: green;
+    font-weight: bold;
+    margin-left:10px
+}
+
+#broadcast{
+  background: white;
+  padding: 12px;
+  margin-top: 50px;
+  border-radius: 10px;
+  color: orange;
+  font-weight: bold;
+  margin-left:10px
+}
+
+.option{
+ 
+  border-radius: 5px;
+  color: black;
+  
+}
+
+.high{
+  background-color:red;
+   width: 60px;
+   color:white;
+   
+}
+
+.low{
+  background-color:green;
+  width: 55px;
+  color:white
+}
+
+.medium{
+  background-color: orange;
+   width: 75px;
+   color:white
+}
+
+#v{
+  background-color: white;
+  color:black
+}
+
+.autogrow{
+  width:auto;
+}
+
+.Progress{
+  color:yellowgreen;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.Not{
+  color:red;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
